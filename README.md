@@ -85,10 +85,10 @@ To run this project, you need to add the environment variable to your `.env` fil
 
 4. Order Routes
 
-    * POST ``/api//order/create/:userId`` : To create a new order by the current logged-in user
+    * **POST** ``/api/order/create/:userId`` : To create a new order by the current logged-in user
 
-    * GET ``/api/order/all/userId`` : To get an un-delivered order of the current logged-in user by Id
+    * **GET** ``/api/order/all/userId`` : To get an un-delivered order of the current logged-in user by Id
 
-    * GET ``/api/order/status/:userId`` : To know the status of placed order
+    * **GET** ``/api/order/status/:userId`` : To know the status of placed order
 
-    * PUT ``/api/order/:orderId/status/:userId`` : To Update the delivery status
+    * **PUT** ``/api/order/:orderId/status/:userId`` : To Update the delivery status
