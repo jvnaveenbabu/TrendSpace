@@ -35,6 +35,33 @@ Style your outfits in your own way
   npm start
 ```
 
+# Backend Folder Structure
+```
+backend
+├── app.js
+├── controllers
+│   ├── auth.js
+│   ├── category.js
+│   ├── order.js
+│   ├── paymentb.js
+│   ├── product.js
+│   └── user.js
+├── models
+│   ├── category.js
+│   ├── order.js
+│   ├── product.js
+│   └── user.js
+├── package-lock.json
+├── package.json
+└── routes
+    ├── auth.js
+    ├── category.js
+    ├── order.js
+    ├── paymentBRoutes.js
+    ├── product.js
+    └── user.js
+```
+
 # Environment Variables
 
 To run this project, you need to add the environment variable to your `.env` file <br>
