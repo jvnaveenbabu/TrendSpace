@@ -1,12 +1,12 @@
 # TrendSpace
 Style your outfits in your own way 
 
-# Tech Stack Used:
+## Tech Stack Used:
 - **FrontEnd** - ReactJS 
 - **BackEnd**  - NodeJS, ExpressJS,
 - **Database** - MongoDB Atlas
 
-# Run on Local Machine 
+## Run on Local Machine 
 
 1. Clone this repo 
 
@@ -62,7 +62,7 @@ backend
     └── user.js
 ```
 
-# Environment Variables
+## Environment Variables
 
 To run this project, you need to add the environment variable to your `.env` file <br>
 
@@ -70,7 +70,7 @@ To run this project, you need to add the environment variable to your `.env` fil
 - **`DATABASE`**
 - **`SECRET`**
 
-# APIs 
+## APIs 
 
 1. **Auth Routes:**
   
