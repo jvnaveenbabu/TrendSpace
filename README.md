@@ -35,7 +35,7 @@ Style your outfits in your own way
   npm start
 ```
 
-# Backend Folder Structure
+## Backend Folder Structure
 ```
 backend
 ├── app.js
