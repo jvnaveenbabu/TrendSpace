@@ -119,3 +119,59 @@ To run this project, you need to add the environment variable to your `.env` fil
     * **GET** ``/api/order/status/:userId`` : To know the status of placed order
 
     * **PUT** ``/api/order/:orderId/status/:userId`` : To Update the delivery status
+
+## FrontEnd Folder Structure
+```
+frontend
+├── package-lock.json
+├── package.json
+├── public
+│   ├── favicon.ico
+│   ├── index.html
+│   ├── logo192.png
+│   ├── logo512.png
+│   ├── manifest.json
+│   └── robots.txt
+├── README.md
+└── src
+    ├── admin
+    │   ├── AddCategory.js
+    │   ├── AddProduct.js
+    │   ├── helper
+    │   │   └── adminapicall.js
+    │   ├── ManageCategories.js
+    │   ├── ManageProducts.js
+    │   ├── Orders.js
+    │   └── UpdateProduct.js
+    ├── App.js
+    ├── auth
+    │   └── helper
+    │       ├── AdminRoutes.js
+    │       ├── index.js
+    │       └── PrivateRoutes.js
+    ├── backend.js
+    ├── core
+    │   ├── Base.js
+    │   ├── Card.js
+    │   ├── Cart.js
+    │   ├── helper
+    │   │   ├── cartHelper.js
+    │   │   ├── coreapicalls.js
+    │   │   ├── ImageHelper.js
+    │   │   ├── orderHelper.js
+    │   │   └── paymentbhelper.js
+    │   ├── Home.js
+    │   ├── Menu.js
+    │   └── Paymentb.js
+    ├── index.js
+    ├── Routes.js
+    ├── styles.css
+    └── user
+        ├── AdminDashBoard.js
+        ├── helper
+        │   └── userapicalls.js
+        ├── Profile.js
+        ├── Signin.js
+        ├── Signup.js
+        └── UserDashBoard.js
+```
